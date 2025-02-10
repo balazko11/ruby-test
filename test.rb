@@ -27,8 +27,8 @@ def collect_files(path, mask)
 end
 
 # Example Usage
-path = "C:/work/modulesro" # Change this to your target directory
-mask = "*.txt" # Change this to your desired file mask (e.g., "*.txt", "*.log", etc.)
+path = "C:/work/modulesro/test-same-hash" # Change this to your target directory
+mask = "*.bin" # Change this to your desired file mask (e.g., "*.txt", "*.log", etc.)
 
 files = collect_files(path, mask)
 
